@@ -49,6 +49,12 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- 引入监控管理 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>

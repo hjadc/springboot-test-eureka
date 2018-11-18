@@ -1,9 +1,9 @@
 server:
-  port: 8003
+  port: 8200
 
 spring:
   application:
-    name: provider-ticket # 服务提供者的名称
+    name: consumer-user # 服务提供者的名称
 # 配置服务提供者的信息
 eureka:
   instance:

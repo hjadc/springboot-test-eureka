@@ -1,0 +1,13 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: provider-ticket # 服务提供者的名称
+# 配置服务提供者的信息
+eureka:
+  instance:
+    prefer-ip-address: true # 注册服务的时候使用服务的ip地址进行注册
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # 注册中心服务注册的地址

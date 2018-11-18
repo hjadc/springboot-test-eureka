@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * 2.启用注册中心@EnableEurekaServer
  *
  * 启动后可以访问http://localhost:8761/查看eureka的首页
+ * 页面里Instances currently registered with Eureka 里是所有注册的服务
  */
 @EnableEurekaServer
 @SpringBootApplication
